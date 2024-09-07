@@ -6,7 +6,9 @@
      <item name="android:windowBackground">@color/backgroundColor</item>
      <item name="colorPrimary">@color/primary</item>
     </style>
-
+    <style name="FullSceenTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+     <item name="android:windowTranslucentNavigation" tools:targetApi="34" >true</item>
+    </style>
 
     <style name="Theme.Cp1kotlin" parent="Base.Theme.Cp1kotlin" />
 </resources>

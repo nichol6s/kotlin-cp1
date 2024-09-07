@@ -14,7 +14,11 @@
         tools:targetApi="31">
         <activity
             android:name=".UserScreen"
-            android:exported="false" />
+            android:theme="@style/FullSceenTheme"
+            android:exported="false"
+            android:fitsSystemWindows="true"
+        />
+
         <activity
             android:name=".SecondScreen"
             android:exported="false" />
